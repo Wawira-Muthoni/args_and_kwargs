@@ -3,13 +3,6 @@
 #  the result of multiplying all of the integers with a 
 # customized greeting based on the keyword arguments.
 #Name the function multiply_and_greet.
-
-
-
-
-import re
-
-
 def multiply_and_greet(*args,**kwargs):
     keys = kwargs.keys()
     product = 1
@@ -25,14 +18,7 @@ def multiply_and_greet(*args,**kwargs):
     else: 
         return f"Hello students"           
 
-#     if "age" in keys:
-#         print f"Hello {kwargs['name']} from {kwargs['age']}"
-# elif "country" in keys:
-#     print f"Hello {kwargs['name']} from {kwargs['country']}" 
-# elif  "name" in keys:
-#     print f"Hello {kwargs[name]}" 
-#     else:
-#         return f"Hello Student"         
+       
      
 
 
